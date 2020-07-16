@@ -1,0 +1,217 @@
+﻿body {
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 0px;
+    background-color: white;
+}
+iframe{
+    width:80%;
+    height: 300px;
+    
+}
+header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+    background-color: #903b3b;
+}
+header img {
+    width: 200px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+nav{
+    background-color: lavenderblush;
+    margin-top: 0px;
+    padding : 10px;
+    vertical-align: middle;
+    position: sticky;
+    top: 0;
+    text-align:  center;
+}
+.nav_link a{ 
+    vertical-align: middle;
+    color: black; 
+    padding: 13px 13px;
+    text-decoration: none;
+}
+.nav_link a:hover{
+    margin-top: 0px;
+    padding : 12px 13px;
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
+.nav_link img{
+    vertical-align: middle;
+    width: 24px;
+    padding-right: 5px;
+}
+#banner img{
+    width: 100%;
+    height: auto;
+    
+}
+.content{
+    margin: 10px auto;
+    width: 99%;
+    text-align: center;
+    vertical-align: middle;
+}
+.content div {
+    padding: 10px;
+    width: 20%;
+    margin: 5px auto;
+    display: inline-block;
+    vertical-align: top;
+}
+div.content img{
+    background-color: steelblue;
+    width: 128px;
+    padding: 10px;
+    border-radius: 20%;
+}
+div.content p{
+    padding: 10px;
+}
+div.content figcaption{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+h2{
+    text-align: center;
+}
+.portfolio{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.portfolio figure{
+    width: 287px;
+    height: 126px;
+    margin: 30px;
+    display: inline-block;
+}
+.portfolio figcaption{
+    font-weight: 700;
+}
+.portfolio figure img {
+    width: 287px;
+    height: 126px;
+    object-fit: cover;
+}
+.portfolio img:hover{
+    opacity: 0.9;
+}
+footer h3{
+    padding-top: 10px;
+    text-align: center;
+}
+footer{ 
+    background-color: #293339;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+}
+footer div{
+    height:100px;
+    display: inline-block;
+    padding-left: 20px;
+}
+#social{
+    margin-left: 100px;
+    vertical-align: top;
+    color: white;
+}
+#social a{
+    color: white;
+    padding-right: 10px;
+}
+footer > p{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* Gallery CSS */
+
+.gal_content{
+    margin: auto;
+    width: 99%;
+    height: auto;
+    text-align: center;
+}
+.gal_content img{
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.gal_content img:hover{
+    opacity: 0.8;
+}
+
+/* Contact us */
+#con_p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+main fieldset{
+    width: 40%;
+    margin: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2; 
+    display: inline-block;
+}
+main label{
+    font-size: 17px;
+    margin: 8px 10px;
+}
+input::placeholder, textarea::placeholder{
+    font-size: 16px;
+}
+input[type=text],input[type=email],textarea, select {
+    width: 90%;
+    font-size: 16px;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 30%;
+    font-size: 16px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .con_content {
+      width: 50%;
+      height: 600px;
+      margin: 10px;
+      display: inline-block;
+      vertical-align: top;
+  }
+  .con_content p{
+      padding: 20px;
+      line-height: 1.6;
+  }
+ /* .con_content iframe{
+      padding: 20px;
+      width: 100%;
+      height: 600px;
+  }*/

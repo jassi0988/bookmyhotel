@@ -1,0 +1,87 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-Jun-2019, 6:55:10 PM
+    Author     : jjaspree1
+*/
+body{
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 0px;
+    background-color: white;
+}
+.mdiv{
+    width: 99%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 40px 0px;
+    border-radius: 5px;
+}
+.mdiv figure{
+    width: 24%;
+    text-align: center;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.mdiv figure img:hover{
+    opacity: 0.8;
+}
+.mdiv figure > img{
+    display: inline-block;
+    width: 100%;
+    height: 240px;
+}
+.mdiv figcaption p img{
+    text-align: center;
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+}
+.mdiv figcaption p{
+    width: 100%;
+    height: 20px;
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.mdiv figcaption{
+    padding: 10px;
+}
+/*  */
+.button {
+    background-color: #428500;
+    border: none;
+    color: white;
+    padding: 8px 68px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 0px;
+    font-weight: bold;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.boton{
+    width:80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.price1{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    font-weight: bold
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #56ac00;
+}

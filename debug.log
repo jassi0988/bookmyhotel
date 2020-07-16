@@ -1,0 +1,6 @@
+[0130/155209.182:ERROR:process_info.cc(359)] UncheckedAllocate
+[0130/155237.227:ERROR:process_info.cc(359)] UncheckedAllocate
+[0715/220614.716:ERROR:file_io.cc(89)] ReadExactly: expected 10136, observed 0
+[0715/220614.736:ERROR:crash_report_database_win.cc(445)] failed to read records
+[0716/133553.962:ERROR:file_io.cc(89)] ReadExactly: expected 10136, observed 0
+[0716/133553.962:ERROR:crash_report_database_win.cc(445)] failed to read records
